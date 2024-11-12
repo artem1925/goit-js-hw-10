@@ -16,3 +16,17 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
+
+.container-nav {
+  background-color: plum;
+  align-content: center;
+  width: 520px;
+  height: 496px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.nav {
+  padding-left: 28%;
+}
