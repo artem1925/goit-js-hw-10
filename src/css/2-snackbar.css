@@ -1,0 +1,143 @@
+.container-snackbar {
+  width: 520px;
+  height: 496px;
+  padding-top: 36px;
+  padding-left: 156px;
+  background-color: plum;
+  border-radius: 8px;
+  border-color: orchid;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.input-delay {
+  outline: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  margin-bottom: 16px;
+}
+.input-delay:hover {
+  outline: 1px solid #000;
+}
+.input-delay:focus {
+  outline: 1px solid #4e75ff;
+}
+
+.Delay {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.legend-state {
+  margin-left: 24px;
+}
+
+.fieldset-state {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 62px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 24px;
+}
+.fieldset-state:hover {
+  border: 2px solid #000;
+}
+
+.input-fulfilled,
+.input-rejected {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+.input-fulfilled:focus,
+.input-rejected:focus {
+  width: 20px;
+  height: 20px;
+  background: #4e75ff;
+}
+
+.input-fulfilled:hover,
+.input-rejected:hover {
+  border: 1px solid #000;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.label-state {
+  display: flex;
+  align-items: center;
+}
+
+.Fulfilled,
+.Rejected {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.btn-create {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  background-color: #4e75ff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-create:hover {
+  background-color: #6c8cff;
+}
+
+.back-btn,
+.nav-btn {
+  text-decoration: none;
+  background-color: rgb(134, 60, 125);
+  padding: 10px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.back-btn:hover,
+.nav-btn:hover {
+  background-color: rgb(180, 41, 170);
+}
